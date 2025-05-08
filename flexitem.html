@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.o">
+  <title>Snap - Make Remote Work</title>
+
+    <style>
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+  background: #fafafa;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.level {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0;
+
+    </style>
+  </head>
+<body>
+  <header>
+    <div class="level">snap</div>
+    <nav>
+      <ul class="nav-links">
+        <li class="dropdown">
+          <a href="#">Features</a>
+          <ul class="dropdown-menu">
+            <li>Todo List</li>
+            <li>Calendar</li>
+            <li>Reminders</li>
+            <li>Planning</li>
+          </ul>
+          </li>
+
+        <li class="dropdown">
+          <a href="#">Company</a>
+          <ul class="dropdown-menu">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <a href="#">Login</a>
+      <a href="#" class="register-btn">Register</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Make <br> <strong>remote work</strong></h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button>Learn more</button>
+        <div class="brands">
+          <img src="databiz-logo.png" alt="Databiz">
+          <img src="audiophile-logo.png" alt="Audiophile">
+          <img src="meet-logo.png" alt="Meet">
+          <img src="maker-logo.png" alt="Maker">
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="person-laptop.jpg" alt="Person with laptop">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
